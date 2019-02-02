@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Aimbot.cpp">
+      <Filter>Hacks\Aimbot</Filter>
+    </ClCompile>
+    <ClCompile Include="Triggerbot.cpp">
+      <Filter>Hacks\Triggerbot</Filter>
+    </ClCompile>
+    <ClCompile Include="ESP.cpp">
+      <Filter>Hacks\ESP</Filter>
+    </ClCompile>
+    <ClCompile Include="Misc.cpp">
+      <Filter>Hacks\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="CBaseEntity.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="DLLMain.cpp" />
+    <ClCompile Include="VMTHooks.cpp">
+      <Filter>Tools\VMT</Filter>
+    </ClCompile>
+    <ClCompile Include="CNetVars.cpp">
+      <Filter>SDK\NetVars</Filter>
+    </ClCompile>
+    <ClCompile Include="CDrawManager.cpp">
+      <Filter>Tools\CDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>Tools\Log</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>Tools\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="CSignature.cpp">
+      <Filter>Tools\CSignature</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>Hooks\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Panels.cpp">
+      <Filter>Hooks\Panels</Filter>
+    </ClCompile>
+    <ClCompile Include="ChatSpam.cpp">
+      <Filter>Hacks\ChatSpam</Filter>
+    </ClCompile>
+    <ClCompile Include="KillSay.cpp">
+      <Filter>Hacks\KillSay</Filter>
+    </ClCompile>
+    <ClCompile Include="TextFile.cpp">
+      <Filter>Tools\TextFile</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiAim.cpp">
+      <Filter>Hacks\AntiAim</Filter>
+    </ClCompile>
+    <ClCompile Include="ConVar.cpp">
+      <Filter>SDK\ConVars</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.cpp">
+      <Filter>FakeWare\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>FakeWare\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI.cpp">
+      <Filter>FakeWare\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSys.cpp">
+      <Filter>FakeWare\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="NccUtilities.cpp">
+      <Filter>FakeWare\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoAirblast.cpp">
+      <Filter>Hacks\AutoAirblast</Filter>
+    </ClCompile>
+    <ClCompile Include="Backtrack.cpp">
+      <Filter>Hacks\Backtrack</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>Tools\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="json.cpp">
+      <Filter>Tools\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="Radar.cpp">
+      <Filter>Hacks\ESP\RADAR</Filter>
+    </ClCompile>
+    <ClCompile Include="QAngle.cpp">
+      <Filter>Tools\CDraw\QANGLES</Filter>
+    </ClCompile>
+    <ClCompile Include="Chams.cpp">
+      <Filter>Hacks\ESP\Chams</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Aimbot.h">
+      <Filter>Hacks\Aimbot</Filter>
+    </ClInclude>
+    <ClInclude Include="Triggerbot.h">
+      <Filter>Hacks\Triggerbot</Filter>
+    </ClInclude>
+    <ClInclude Include="ESP.h">
+      <Filter>Hacks\ESP</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc.h">
+      <Filter>Hacks\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="VMTHooks.h">
+      <Filter>Tools\VMT</Filter>
+    </ClInclude>
+    <ClInclude Include="getvfunc.h">
+      <Filter>Tools\VMT</Filter>
+    </ClInclude>
+    <ClInclude Include="CNetVars.h">
+      <Filter>SDK\NetVars</Filter>
+    </ClInclude>
+    <ClInclude Include="CDrawManager.h">
+      <Filter>Tools\CDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponList.h">
+      <Filter>SDK\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>SDK\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>Tools\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>SDK\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="bspflags.h">
+      <Filter>SDK\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="studio.h">
+      <Filter>SDK\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>Tools\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="CSignature.h">
+      <Filter>Tools\CSignature</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>Hooks\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Panels.h">
+      <Filter>Hooks\Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="ChatSpam.h">
+      <Filter>Hacks\ChatSpam</Filter>
+    </ClInclude>
+    <ClInclude Include="KillSay.h">
+      <Filter>Hacks\KillSay</Filter>
+    </ClInclude>
+    <ClInclude Include="TextFile.h">
+      <Filter>Tools\TextFile</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiAim.h">
+      <Filter>Hacks\AntiAim</Filter>
+    </ClInclude>
+    <ClInclude Include="ConVar.h">
+      <Filter>SDK\ConVars</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>FakeWare\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="singleton.h">
+      <Filter>FakeWare\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI.h">
+      <Filter>FakeWare\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>FakeWare\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>SDK\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSys.h">
+      <Filter>FakeWare\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="NccMath.h">
+      <Filter>FakeWare\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="NccDraw.h">
+      <Filter>FakeWare\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="NccUtilities.h">
+      <Filter>FakeWare\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoAirblast.h">
+      <Filter>Hacks\AutoAirblast</Filter>
+    </ClInclude>
+    <ClInclude Include="Backtrack.h">
+      <Filter>Hacks\Backtrack</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Tools\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="json.h">
+      <Filter>Tools\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="CGlobalVars.h" />
+    <ClInclude Include="Radar.h">
+      <Filter>Hacks\ESP\RADAR</Filter>
+    </ClInclude>
+    <ClInclude Include="QAngle.h">
+      <Filter>Tools\CDraw\QANGLES</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2D.h">
+      <Filter>FakeWare\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2DD.h">
+      <Filter>FakeWare\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyValues.h">
+      <Filter>Hacks\ESP\Chams</Filter>
+    </ClInclude>
+    <ClInclude Include="CCham.h">
+      <Filter>Hacks\ESP\Chams</Filter>
+    </ClInclude>
+    <ClInclude Include="Materials.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Hacks">
+      <UniqueIdentifier>{bd4db70f-c9e9-4991-848f-748551954a06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hacks\Aimbot">
+      <UniqueIdentifier>{4f190136-d775-450b-9049-6a6fdd0ab7a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hacks\Triggerbot">
+      <UniqueIdentifier>{d045afc8-c948-46e8-b3fa-9c7469fb9345}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hacks\ESP">
+      <UniqueIdentifier>{3f8592fd-56b1-487a-bf76-227058a23a9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hacks\Misc">
+      <UniqueIdentifier>{338f8ff1-8354-487f-9830-cc45a33039d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{bb1e4dd0-0d43-43a8-a824-c42f26467487}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools">
+      <UniqueIdentifier>{ae107a47-ad3c-44fe-965b-af8cc6ff7e5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\VMT">
+      <UniqueIdentifier>{fc7b8130-59c8-49fc-a861-cb2082199ad1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\NetVars">
+      <UniqueIdentifier>{5a4ee5ba-f6db-4cb3-84fd-c0d4a2eb882c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\CDraw">
+      <UniqueIdentifier>{deec0be8-e6a4-4f1d-b718-204e71036a21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Headers">
+      <UniqueIdentifier>{693b42ce-a61b-4197-ae27-1672240396f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\Log">
+      <UniqueIdentifier>{7d28f884-5701-40cd-8d3f-1c5d0eec7299}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\Util">
+      <UniqueIdentifier>{55b1df47-719d-4d78-bfa5-42ca21e3641b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\CSignature">
+      <UniqueIdentifier>{9a6ba539-3ed8-4dcc-aac2-8acd285ca857}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks">
+      <UniqueIdentifier>{d55039f9-c1a0-4bec-94c5-16a3f00c57ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks\Client">
+      <UniqueIdentifier>{50e03ef2-c39c-4da6-9c2a-719fe81e5c36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks\Panels">
+      <UniqueIdentifier>{92d8cbd9-aa1d-4ac7-94bf-2e18f02507a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hacks\ChatSpam">
+      <UniqueIdentifier>{b8a5d3bd-c69b-4e4b-af95-2c4d900ed772}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hacks\RemoveConditions">
+      <UniqueIdentifier>{31f1fb93-5e97-41de-99b1-325b0fb44c56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hacks\KillSay">
+      <UniqueIdentifier>{adcd8290-f430-4bc3-b301-81fc517025d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\TextFile">
+      <UniqueIdentifier>{37360098-8449-4262-bbfe-c533bc6eebf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hacks\AntiAim">
+      <UniqueIdentifier>{30e97167-73d8-4703-996f-89eaa8ca657e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\ConVars">
+      <UniqueIdentifier>{563f3f0d-4ad2-4309-aebf-cbeff6002f77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FakeWare">
+      <UniqueIdentifier>{1c4673ae-9025-42a7-a96a-91eeb8881d16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FakeWare\Menu">
+      <UniqueIdentifier>{33d968e1-5a9c-425e-bbe6-580042e2a3ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FakeWare\Core">
+      <UniqueIdentifier>{ce24c8bb-cb67-4a82-b59a-8e9613ccbdec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hacks\AutoAirblast">
+      <UniqueIdentifier>{32483575-ae4a-47a7-bf4b-a27d556b8a48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hacks\Backtrack">
+      <UniqueIdentifier>{86a980d5-dfbe-44b6-b332-2271557a172b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\Config">
+      <UniqueIdentifier>{fe084cb8-d066-4b44-9c42-334af20186a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hacks\ESP\RADAR">
+      <UniqueIdentifier>{591e64a5-120d-4a45-8624-f65352cb4912}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\CDraw\QANGLES">
+      <UniqueIdentifier>{166467e8-04a3-4c5f-a2b9-8087a7004deb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hacks\ESP\Chams">
+      <UniqueIdentifier>{b7a0fd07-e73f-41f2-ae35-8bbafbe36acf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
